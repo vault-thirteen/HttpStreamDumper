@@ -1,6 +1,6 @@
 module github.com/vault-thirteen/HttpStreamDumper
 
-go 1.22
+go 1.23
 
 require github.com/vault-thirteen/auxie v0.28.3
 
