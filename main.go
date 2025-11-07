@@ -9,7 +9,7 @@ import (
 	"syscall"
 
 	"github.com/vault-thirteen/HttpStreamDumper/dumper"
-	"github.com/vault-thirteen/auxie/Versioneer"
+	ver "github.com/vault-thirteen/auxie/Versioneer/classes/Versioneer"
 )
 
 const (
