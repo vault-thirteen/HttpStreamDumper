@@ -2,7 +2,7 @@ module github.com/vault-thirteen/HttpStreamDumper
 
 go 1.25.8
 
-require github.com/vault-thirteen/auxie v0.31.3
+require github.com/vault-thirteen/auxie v0.31.4
 
 require (
 	github.com/kr/pretty v0.3.1 // indirect
