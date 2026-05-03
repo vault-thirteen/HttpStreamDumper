@@ -8,8 +8,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/vault-thirteen/HttpStreamDumper/dumper"
 	ver "github.com/vault-thirteen/auxie/Versioneer/classes/Versioneer"
+
+	"github.com/vault-thirteen/HttpStreamDumper/dumper"
 )
 
 const (
@@ -25,7 +26,7 @@ const (
 )
 
 func main() {
-	vi, err := ver.New()
+	vi, err := ver.New(false)
 	if err != nil {
 		log.Fatal(err)
 	}
